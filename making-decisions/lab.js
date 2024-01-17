@@ -99,9 +99,10 @@ else if (temperature < 0 || temperature > 100){
 */
 
 //CODE HERE
-for (let i = 1; i <= 10; i++){
+//for loop, same as above, but this prints the value of i.
+/* for (let i = 1; i <= 10; i++){
   console.log(i);
-}
+} */
 ////////// PROBLEM 7 //////////
 
 /*
@@ -109,7 +110,10 @@ for (let i = 1; i <= 10; i++){
 */
 
 //CODE HERE
-
+// In order to print i in reversem, start with the largest number, decrement i, and stop if less that one.
+for(let i = 10; i > 0; i--){
+  console.log(i);
+}
 
 ////////// PROBLEM 8 //////////
 
