@@ -88,9 +88,9 @@ else if (temperature < 0 || temperature > 100){
 
 //CODE HERE
 //For loops require 3 arguments: initial expression; condition; incremental expression. Remember to seperate them with semicolons.
-for (let i = 0; i < 10; i++){
+/* for (let i = 0; i < 10; i++){
   console.log('Hello');
-}
+} */
 
 ////////// PROBLEM 6 //////////
 
@@ -99,7 +99,9 @@ for (let i = 0; i < 10; i++){
 */
 
 //CODE HERE
-
+for (let i = 1; i <= 10; i++){
+  console.log(i);
+}
 ////////// PROBLEM 7 //////////
 
 /*
