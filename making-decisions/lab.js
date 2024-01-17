@@ -1,4 +1,4 @@
-////////// PROBLEM 1 //////////
+/* ////////// PROBLEM 1 //////////
 /*
   Create a variable called 'lovesCode' and set it equal to true. 
   Check to see if 'lovesCode' is equal to true or false. 
@@ -7,7 +7,7 @@
 */
 
 //CODE HERE
-let lovesCode = false;
+/* let lovesCode = false;
 
 if (lovesCode === true){
   console.log("I love to code!")
@@ -19,7 +19,7 @@ if (lovesCode === true){
 var amysAge = 34;
 var brittanisAge = 34;
 var amysBirthYear = 1991;
-var brittanisBirthYear = 1986;
+var brittanisBirthYear = 1986; */
 
 ////////// PROBLEM 2 //////////
 
@@ -28,27 +28,27 @@ var brittanisBirthYear = 1986;
 */
 
 //CODE HERE
-if (amysAge > brittanisAge){
+/* if (amysAge > brittanisAge){
   console.log("Amy is older.")
 } else if  (brittanisAge > amysAge){
   console.log("Brittani is older")
 } else {
   console.log("They are both the same age.")
-}
+} */
 
 ////////// PROBLEM 3 //////////
 
 /*
   Using an if statement and a comparison operator, create code that will check if Amy and Brittani were born in the same year. If they were, console.log 'Amy & Brittani were born in the same year'. If they were not, console.log 'Amy & Brittani were not born in the same year'
 */
-var amysBirthYear = 1991;
+/* var amysBirthYear = 1991;
 var brittanisBirthYear = 1986;
 //CODE HERE
 if (amysBirthYear === brittanisBirthYear){
   console.log('Amy & Brittani were born in the same year')
 }else{
   console.log('Amy & Brittani were not born in the same year')
-}
+} */
 ////////// PROBLEM 4 //////////
 
 let temperature = 40;
@@ -57,7 +57,7 @@ let rain = false;
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
   If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
-*/
+
 
 //CODE HERE
 // Variable temperatures with rain.
@@ -80,13 +80,17 @@ else if (temperature >= 80) {
 else if (temperature < 0 || temperature > 100){
   console.log('You should stay inside today.')
 }
+*/
 ////////// PROBLEM 5 //////////
-
 /*
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 */
 
 //CODE HERE
+//For loops require 3 arguments: initial expression; condition; incremental expression. Remember to seperate them with semicolons.
+for (let i = 0; i < 10; i++){
+  console.log('Hello');
+}
 
 ////////// PROBLEM 6 //////////
 
