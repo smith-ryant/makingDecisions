@@ -111,9 +111,9 @@ else if (temperature < 0 || temperature > 100){
 
 //CODE HERE
 // In order to print i in reversem, start with the largest number, decrement i, and stop if less that one.
-for(let i = 10; i > 0; i--){
+/* for(let i = 10; i > 0; i--){
   console.log(i);
-}
+} */
 
 ////////// PROBLEM 8 //////////
 
@@ -125,6 +125,12 @@ let passingScore = 7;
 */
 
 //CODE HERE
+//while loops are a little different than for loops, because the variable is declared outside of the loop. 
+while(score < passingScore)
+  if (score < passingScore){
+    (console.log('Your score is not high enough'));
+  score++;
+  }
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
